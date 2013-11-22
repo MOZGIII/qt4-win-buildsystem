@@ -1,6 +1,6 @@
 @call vars
 
-pushd %BUILDPATH%
+pushd "%BUILDPATH%"
 
 jom /W /S -j2
 

@@ -5,7 +5,8 @@ set QTBVL=loaded
 set "ROOTPATH=%CD%"
 set "QTPATH=%CD%\qt"
 set "BUILDPATH=%CD%\build"
-set "PATH=%CD%\tools\jom;!ROOTPATH!\tools\fart;%PATH%"
+set "INSTALLPATH=%CD%\install"
+set "PATH=%CD%\tools\jom;%CD%\tools\fart;%PATH%"
 
 set LANG=en
 

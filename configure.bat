@@ -1,10 +1,9 @@
 @call vars
 
-rem rmdir %BUILDPATH% /S /Q
-mkdir %BUILDPATH%
-pushd %BUILDPATH%
+mkdir "%BUILDPATH%"
+pushd "%BUILDPATH%"
 
-%QTPATH%\configure.exe -opensource -confirm-license ^
+"%QTPATH%\configure.exe" -opensource -confirm-license ^
 	-platform win32-g++ ^
 	-debug -debug-and-release ^
 	-no-phonon ^
